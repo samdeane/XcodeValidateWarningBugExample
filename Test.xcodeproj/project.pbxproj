@@ -50,6 +50,7 @@
 		225912FD183BD5C70067D6A8 /* TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
 		225912FF183BD5C70067D6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22591301183BD5C70067D6A8 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		2259130B183BD6300067D6A8 /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 				225912E9183BD5C70067D6A8 /* AppDelegate.h */,
 				225912EA183BD5C70067D6A8 /* AppDelegate.m */,
 				225912EC183BD5C70067D6A8 /* MainMenu.xib */,
+				2259130B183BD6300067D6A8 /* Test.xcconfig */,
 				225912EF183BD5C70067D6A8 /* Images.xcassets */,
 				225912DE183BD5C70067D6A8 /* Supporting Files */,
 			);
@@ -198,7 +200,7 @@
 		225912CC183BD5C70067D6A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Tes;
 				TargetAttributes = {
 					225912F4183BD5C70067D6A8 = {
@@ -313,6 +315,7 @@
 /* Begin XCBuildConfiguration section */
 		22591303183BD5C70067D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2259130B183BD6300067D6A8 /* Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -343,13 +346,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		22591304183BD5C70067D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2259130B183BD6300067D6A8 /* Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -464,6 +467,7 @@
 				22591307183BD5C70067D6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22591308183BD5C70067D6A8 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +476,7 @@
 				2259130A183BD5C70067D6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
